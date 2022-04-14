@@ -1,0 +1,314 @@
+@media screen and (max-width: 768px) {
+    header {
+        max-width: 100%;
+        display: block;
+        max-height: 25rem;
+        background-image: url(/BTT2/img/group1/headerbackground.png);
+        background-repeat: no-repeat;
+        background-size: 100% 25rem;
+    }
+    .logo img {
+        margin-top: 2rem;
+        max-height: 2rem;
+    }
+    .banner {
+        overflow: hidden;
+    }
+    .menu .list {
+        margin-top: 2rem;
+    }
+    .menu .list li {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+        display: inline;
+        font-size: 0.9rem;
+        letter-spacing: 0.01rem;
+    }
+    .left .product {
+        position: relative;
+        top: -3rem;
+        max-height: 16rem;
+    }
+    .left .smartobj-1 {
+        max-width: 12rem;
+        top: 13.5rem;
+        left: 17rem;
+    }
+    .left .smartobj-2 {
+        max-width: 16rem;
+        top: 14.5rem;
+        left: 15rem;
+    }
+    .left .subtitle-1 {
+        max-width: 11rem;
+        top: -20.5rem;
+        left: -1rem;
+    }
+    .left .subtitle-2 {
+        max-width: 8rem;
+        top: -10.5rem;
+        left: -10.5rem;
+    }
+    .right .dog {
+        top: 8.4rem;
+        right: 0rem;
+        max-width: 17rem;
+    }
+    section .our-story {
+        display: inline-flex;
+        height: 15rem;
+    }
+    .image .out {
+        top: 29.3rem;
+        left: 5rem;
+        max-width: 4rem;
+    }
+    .image .story {
+        max-width: 8rem;
+        max-height: 3rem;
+        position: absolute;
+        top: 31rem;
+        left: 5rem;
+    }
+    .image .greybug {
+        top: 3.5rem;
+        width: 13rem;
+        height: 16rem;
+    }
+    .content {
+        margin-left: 1rem;
+        margin-right: 0rem;
+        font-size: 1rem;
+        line-height: 22px;
+        padding-top: 4rem;
+    }
+    .content p {
+        margin-bottom: 0.4rem;
+    }
+    .content span {
+        font-size: large;
+        padding-top: 1rem;
+        color: #7fb8e0;
+    }
+    .product .fooddog {
+        top: 3rem;
+        right: 1rem;
+        width: 14rem;
+        height: 13rem;
+    }
+    .product-content {
+        max-height: 42rem;
+    }
+    .content-banner {
+        background-size: 100% 15rem;
+        background-repeat: no-repeat;
+        height: 15rem;
+    }
+    .content-banner .banner {
+        height: 3rem;
+        margin-left: 10rem;
+    }
+    .content-banner .title {
+        max-width: 40rem;
+        margin-top: 2.5rem;
+        margin-left: 5rem;
+    }
+    .content-banner .smartobj {
+        max-height: 6rem;
+        margin-top: 0.3rem;
+    }
+    .content-story {
+        max-width: 100%;
+        display: inline-flex;
+        max-height: 30rem;
+    }
+    .content-text {
+        display: block;
+        max-width: 25rem;
+    }
+    .content-text .subtile {
+        margin-left: 9rem;
+        margin-top: 7rem;
+        max-width: 15rem;
+    }
+    .content-text p {
+        max-width: 20rem;
+        margin-top: 2rem;
+        margin-left: 9rem;
+        font-size: 0.7rem
+    }
+    .content-text button {
+        margin-left: 9rem;
+        margin-top: 1rem;
+        line-height: 1rem;
+    }
+    .content-image .blackbug {
+        margin-left: 5rem;
+        margin-top: 3rem;
+        width: 14rem;
+        height: 19rem;
+    }
+    .content-image .smartobj2 {
+        max-width: 3rem;
+        margin-bottom: 12rem;
+        margin-left: -2rem;
+    }
+    .learn-more-dog-breed {
+        width: 100%;
+        display: flex;
+        max-height: 20rem;
+        background-size: 100% 30rem;
+    }
+    .dog-breed {
+        max-width: 10rem;
+        display: block;
+        max-height: 16rem;
+    }
+    .dog-breed .subtitle {
+        width: 13rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+    }
+    .dog-breed input {
+        height: 0.2rem;
+        width: 12rem;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+    .dog-breed .eclipse {
+        margin-left: 15.2rem;
+        position: relative;
+        bottom: 2.4rem;
+    }
+    .dog-breed .shape {
+        margin-left: 16rem;
+        position: relative;
+        bottom: 3.2rem;
+    }
+    .dog-breed p {
+        position: relative;
+        top: 1.5rem;
+        font-size: 1rem;
+        margin-left: 4rem;
+    }
+    .dog-breed button {
+        margin-left: 4rem;
+        line-height: 0.6rem;
+        font-size: 0.7rem;
+        padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    }
+    .image-dog-breed {
+        max-height: 17rem;
+        max-width: 6rem;
+        margin-left: 12rem;
+    }
+    .image-dog-breed img {
+        position: relative;
+        bottom: 3.5rem;
+        height: 24rem;
+        left: -4rem;
+    }
+    .learn-more {
+        margin-left: 3rem;
+    }
+    .learn-more img {
+        width: 12rem;
+        margin-top: 4.1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .learn-more p {
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 1rem;
+    }
+    .learn-more button {
+        margin-top: 2.5rem;
+        line-height: 0.6rem;
+        font-size: 0.6rem;
+    }
+    .all-product {
+        max-height: 25rem;
+        display: inline-flex;
+    }
+    .img-product img {
+        width: 16rem;
+        height: 15rem;
+        margin-top: 6rem;
+        margin-left: 5rem;
+    }
+    .content-product {
+        margin-left: 1rem;
+    }
+    .content-product img {
+        width: 19rem;
+        height: 1.4rem;
+        margin-top: 8rem;
+        margin-left: -1rem;
+        margin-bottom: 1rem;
+    }
+    .content-product p {
+        font-family: fantasy;
+        font-size: 0.9rem;
+        margin-left: -1.1rem;
+        margin-right: 5rem;
+        margin-bottom: 1rem;
+    }
+    .content-product button {
+        margin-left: -1rem;
+        line-height: 0.7rem;
+        font-size: 1rem;
+    }
+    footer {
+        background-color: white;
+        max-height: 25rem;
+        width: 100%;
+    }
+    footer .footer {
+        margin: auto;
+        display: flex;
+        width: 90%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .footer .footer-left {
+        max-width: 20rem;
+        margin-left: 10rem;
+    }
+    .footer-left img {
+        max-width: 8rem;
+        margin-top: 6rem;
+        margin-left: 12rem;
+    }
+    .footer-left .menu-footer {
+        max-width: 12rem;
+        margin-top: 4.7rem;
+        margin-left: 11rem;
+    }
+    .menu-footer ul {
+        list-style-type: none;
+    }
+    .menu-footer li {
+        display: inline;
+        margin: -0.1rem;
+        color: #46222a;
+    }
+    .menu-footer li a {
+        color: #46222a;
+        font-size: 0.7rem;
+    }
+    .footer-left p {
+        font-family: fantasy;
+        font-size: 0.35rem;
+        margin-top: 1rem;
+        margin-left: 11rem;
+    }
+    .footer-right {
+        margin-top: 15rem;
+        margin-left: 3rem;
+    }
+    .footer-right a {
+        margin-left: 0.3rem;
+    }
+}
