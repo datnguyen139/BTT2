@@ -1,0 +1,176 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .header .background {
+        width: 1024px;
+    }
+    .logo {
+        max-height: 2rem;
+        max-width: 2rem;
+        margin-left: 2.5rem;
+    }
+    .menu {
+        max-width: 40rem;
+        float: right;
+        margin-left: 7rem;
+    }
+    .menu .list li {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        display: inline;
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    .image {
+        position: relative;
+        max-height: 5rem;
+    }
+    .image .greybug {
+        position: relative;
+        top: 3.5rem;
+        width: 18rem;
+        max-height: 19rem;
+    }
+    .image .out {
+        width: 27%;
+        position: absolute;
+        bottom: 0rem;
+        left: 8rem;
+    }
+    .image .story {
+        max-width: 47%;
+        max-height: 4rem;
+        position: absolute;
+        bottom: -5rem;
+        left: 8rem;
+    }
+    .content {
+        margin-left: 0rem;
+        margin-right: -2rem;
+        font-size: 17px;
+        line-height: 31px;
+        padding-top: 2rem;
+    }
+    .product .fooddog {
+        top: -1rem;
+        right: 1rem;
+        max-width: 21rem;
+        max-height: 20rem;
+    }
+    .content-banner .banner {
+        height: 3rem;
+        margin-left: 17rem;
+    }
+    .content-banner .title {
+        margin-top: 3rem;
+        margin-left: 7rem;
+    }
+    .content-text {
+        margin-left: -15rem;
+    }
+    .content-banner .smartobj {
+        max-height: 7rem;
+        margin-top: 0.3rem;
+    }
+    .dog-breed .subtitle {
+        max-width: 14rem;
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+    .dog-breed p {
+        top: 1.5rem;
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .dog-breed input {
+        margin-left: 0rem;
+        margin-top: 2rem;
+        width: 14rem;
+    }
+    .dog-breed button {
+        margin-left: 0rem;
+        line-height: 1rem;
+    }
+    .dog-breed .eclipse {
+        margin-left: -1rem;
+        position: relative;
+        bottom: 1.5rem;
+    }
+    .dog-breed .shape {
+        margin-left: 14rem;
+        position: relative;
+        bottom: 2.4rem;
+    }
+    .learn-more-dog-breed {
+        display: flex;
+        max-height: 19rem;
+        background-color: #f0f0f0;
+    }
+    .image-dog-breed img {
+        position: relative;
+        bottom: 3rem;
+        max-height: 25rem;
+        right: 10rem;
+    }
+    .learn-more {
+        max-width: 28rem;
+        margin-left: 2rem;
+        margin-right: 4rem;
+    }
+    .learn-more p {
+        font-size: 1rem;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 1rem;
+    }
+    .image-dog-breed {
+        max-height: 18rem;
+        max-width: 7rem;
+        margin-left: 11rem;
+    }
+    .learn-more img {
+        max-width: 13rem;
+        margin-top: 5rem;
+        margin-right: 4rem;
+        margin-bottom: 2rem;
+    }
+    .learn-more button {
+        line-height: 1rem;
+    }
+    .product-content {
+        margin-bottom: 1rem;
+    }
+    .img-product img {
+        max-width: 27rem;
+        margin-left: 1rem;
+    }
+    .footer {
+        margin-left: 3.2rem;
+    }
+    .footer .footer-left {
+        max-width: 40rem;
+        margin-left: 10rem;
+    }
+    .footer-left img {
+        max-width: 12rem;
+        margin-left: 19rem;
+    }
+    .footer-right {
+        margin-top: 25rem;
+        margin-left: -2rem;
+    }
+    .footer-left p {
+        letter-spacing: 1px;
+        font-family: fantasy;
+        font-size: 0.8rem;
+        margin-top: 1.1rem;
+        margin-left: 15rem;
+    }
+    .footer-right {
+        margin-top: 26rem;
+        margin-left: 0rem;
+    }
+}
