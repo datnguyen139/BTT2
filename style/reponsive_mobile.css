@@ -4,82 +4,82 @@
     }
     .logo {
         max-width: 1rem;
-        margin-left: 0.2rem;
+        margin-left: -1rem;
     }
     .logo img {
-        margin-top: 1rem;
-        max-height: 1rem;
+        margin-top: 0.5rem;
+        max-height: 1.5rem;
     }
     .menu {
-        max-width: 16rem;
+        max-width: 12rem;
         float: right;
-        margin-left: 2rem;
+        margin-left: 2.5rem;
     }
     .menu .list li {
-        margin-left: 0.1rem;
+        margin-left: 0rem;
         display: inline;
-        font-size: 0.4rem;
+        font-size: 0.7rem;
         letter-spacing: 0rem;
     }
     .menu .list {
-        margin-top: 1rem;
+        margin-top: 0.1rem;
     }
     section .our-story {
         max-width: 100%;
         display: inline-flex;
-        height: 6rem;
+        height: 12rem;
+    }
+    .our-story .product {
+        max-width: 10rem;
     }
     .image .greybug {
-        margin-bottom: -2rem;
-        top: 0.5rem;
-        width: 6rem;
-        height: 8rem;
+        display: none;
     }
     .image .out {
-        top: 12.7rem;
-        left: 2.6rem;
-        max-width: 1.6rem;
+        display: none;
     }
     .image .story {
-        top: 13.9rem;
-        left: 2.6rem;
-        max-width: 2.9rem;
+        display: none;
     }
     .content {
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin-right: 0rem;
-        font-size: 0.5rem;
-        line-height: 10px;
-        padding-top: 1rem;
+        padding-top: 0rem;
+    }
+    .content p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8rem;
+        line-height: 17px;
     }
     .content span {
-        font-size: small;
-        padding-top: 1rem;
+        font-size: 21px;
         color: #7fb8e0;
     }
     .product .fooddog {
-        top: -0.2rem;
-        right: 1rem;
-        width: 6rem;
-        height: 6rem;
+        top: 0.8rem;
+        right: -1rem;
+        width: 8rem;
+        height: 9rem;
     }
     .content-banner {
-        background-size: 100% 15rem;
+        background-size: 100% 10rem;
         background-repeat: no-repeat;
-        height: 6rem;
+        height: 10rem;
     }
     .content-banner .smartobj {
-        max-height: 2rem;
-        margin-top: 0.3rem;
+        display: none;
     }
     .content-banner .banner {
-        height: 1.5rem;
-        margin-left: 5.6rem;
-    }
-    .content-banner .title {
-        max-width: 15rem;
         margin-top: 1rem;
-        margin-left: 4rem;
+        height: 2.4rem;
+        margin-left: 5.4rem;
+        width: 12rem;
+    }
+    .content-banner p {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 0.8rem;
     }
     .content-story {
         margin-left: 0rem;
@@ -88,60 +88,58 @@
         max-height: 13rem;
     }
     .content-text .subtile {
-        height: 1rem;
-        margin-left: 2rem;
-        margin-top: 3rem;
+        height: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
         max-width: 13rem;
     }
     .content-text p {
-        max-width: 13rem;
-        margin-top: 1rem;
-        margin-left: 2rem;
-        font-size: 0.5rem;
+        max-width: 15rem;
+        margin-top: 0.1rem;
+        margin-left: 1.2rem;
+        font-size: 0.8rem;
     }
     .content-text button {
-        font-size: 10px;
-        margin-left: 2rem;
+        font-size: 16px;
+        margin-left: 1.3rem;
         margin-top: 0rem;
-        line-height: 0.2rem;
+        line-height: 0.5rem;
     }
     .content-image .blackbug {
-        margin-left: 1rem;
-        margin-top: 3rem;
-        width: 8rem;
-        height: 10rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+        width: 9rem;
+        height: 11rem;
     }
     .content-image .smartobj2 {
-        max-width: 2rem;
-        margin-bottom: 7rem;
-        margin-left: -1rem;
+        display: none;
     }
     .product-content {
-        max-height: 15rem;
+        max-height: 20rem;
     }
     .dog-breed {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .dog-breed .subtitle {
-        width: 11rem;
-        margin-top: 2.8rem;
-        margin-left: 2rem;
+        width: 16rem;
+        margin-top: 1.8rem;
+        margin-left: 0rem;
     }
     .dog-breed p {
-        top: 0.5rem;
-        font-size: 0.7rem;
-        margin-left: 2rem;
+        top: 1.5rem;
+        font-size: 1.2rem;
+        margin-left: 0rem;
     }
     .dog-breed input {
-        height: 0.2rem;
-        max-width: 8rem;
-        margin-left: 2rem;
+        height: 2.2rem;
+        max-width: 13rem;
+        margin-left: 0rem;
         margin-top: 0rem;
     }
     .dog-breed button {
-        margin-top: 0rem;
-        margin-left: 2rem;
-        line-height: 0.6rem;
+        margin-top: 1rem;
+        margin-left: 0rem;
+        line-height: 1rem;
         font-size: 0.7rem;
     }
     .dog-breed .eclipse {
@@ -156,11 +154,14 @@
         max-height: 10rem;
         background-size: 100% 30rem;
     }
+    .image-dog-breed {
+        max-width: 0px;
+    }
     .image-dog-breed img {
-        width: 7.1rem;
-        bottom: 1rem;
-        height: 14.3rem;
-        left: -9.5rem;
+        width: 5.6rem;
+        bottom: 1.8rem;
+        height: 13.8rem;
+        left: -4.3rem;
     }
     .learn-more {
         display: none;
@@ -168,28 +169,29 @@
     .img-product img {
         width: 9rem;
         height: 9rem;
-        margin-top: 3rem;
-        margin-left: 0rem;
+        margin-top: 1.7rem;
+        margin-left: -1rem;
     }
     .all-product {
         max-height: 14rem;
         margin-bottom: -1rem;
     }
     .content-product img {
-        width: 12rem;
-        height: 1rem;
-        margin-top: 4.1rem;
-        margin-left: -1rem;
+        width: 13.7rem;
+        height: 0.9rem;
+        margin-top: 2.1rem;
+        margin-left: -1.5rem;
         margin-bottom: 0.1rem;
     }
     .content-product p {
-        font-size: 0.6rem;
-        margin-left: -1.1rem;
-        margin-right: 5rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.8rem;
+        margin-left: -1.6rem;
+        margin-right: 0rem;
         margin-bottom: 0.5rem;
     }
     .content-product button {
-        margin-left: -1rem;
+        margin-left: -1.5rem;
         line-height: 0.5rem;
         font-size: 0.7rem;
     }
@@ -201,32 +203,26 @@
         max-width: 6rem;
     }
     .footer-left img {
-        max-width: 4.9rem;
+        max-width: 4.2rem;
         margin-top: 2rem;
-        margin-left: 14.8rem;
+        margin-left: 15.1rem;
     }
     .footer-left .menu-footer {
-        max-width: 6rem;
-        margin-top: 1.7rem;
-        margin-left: 14rem;
-    }
-    .menu-footer li a {
-        color: #46222a;
-        font-size: 0.4rem;
+        display: none;
     }
     .footer-left p {
-        width: 8rem;
-        font-size: 0.35rem;
-        margin-top: 0rem;
+        width: 10rem;
+        font-size: 0.45rem;
+        margin-top: 4.1rem;
         margin-left: 14rem;
         letter-spacing: 0px;
     }
     .footer-right {
-        margin-top: 7rem;
-        margin-left: 15rem;
+        margin-top: 1rem;
+        margin-left: 17rem;
     }
     .footer-right img {
-        width: 0.4rem;
+        width: 1rem;
     }
     footer {
         margin-bottom: 2rem;

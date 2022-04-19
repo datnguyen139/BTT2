@@ -129,20 +129,25 @@ section .our-story {
 .content-banner {
     width: 100%;
     display: block;
-    background-image: url(/BTT2/img/group3/chicken.png);
-    background-size: 100% 25rem;
+    background-image: url(/img/group3/chicken.png);
+    background-size: 100% 28rem;
     background-repeat: no-repeat;
-    max-height: 20rem;
+    height: 28rem;
 }
 
 .content-banner .banner {
-    height: 5rem;
-    margin-left: 32rem;
+    height: 6rem;
+    margin-left: 29rem;
 }
 
-.content-banner .title {
-    margin-top: 3rem;
-    margin-left: 30rem;
+.content-banner p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .content-story {
@@ -218,11 +223,11 @@ section .our-story {
 
 .dog-breed input {
     width: 25rem;
-    max-height: 2rem;
+    height: 2.5rem;
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-left: 8rem;
     background-color: #f0f0f0;
 }
@@ -352,7 +357,7 @@ footer .footer {
     margin-left: 6rem;
     width: 90%;
     max-height: 34rem;
-    background-image: url(/BTT2/img/group5/background5.png);
+    background-image: url(/img/group5/background5.png);
     background-size: 100% 32rem;
     background-repeat: no-repeat;
 }
