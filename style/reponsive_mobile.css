@@ -2,6 +2,15 @@
     .nav-menu {
         max-width: 36rem;
     }
+    .nav-menu button {
+        position: relative;
+        display: inline;
+        left: 13.5rem;
+        background-color: #67adcd;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        border: none;
+    }
     .logo {
         max-width: 1rem;
         margin-left: -1rem;
@@ -11,15 +20,25 @@
         max-height: 1.5rem;
     }
     .menu {
+        position: relative;
+        box-shadow: 2px 2px 2px 2px;
+        top: 0rem;
+        left: 0rem;
+        background-color: white;
+        max-height: 8rem;
+        display: none;
         max-width: 12rem;
         float: right;
-        margin-left: 2.5rem;
+        margin-left: 12.5rem;
     }
     .menu .list li {
         margin-left: 0rem;
         display: inline;
         font-size: 0.7rem;
         letter-spacing: 0rem;
+    }
+    .menu .list li a {
+        color: black;
     }
     .menu .list {
         margin-top: 0.1rem;
@@ -131,7 +150,8 @@
         margin-left: 0rem;
     }
     .dog-breed input {
-        height: 2.2rem;
+        background-color: white;
+        height: 2rem;
         max-width: 13rem;
         margin-left: 0rem;
         margin-top: 0rem;
@@ -150,18 +170,19 @@
     }
     .learn-more-dog-breed {
         width: 100%;
-        display: flex;
+        display: inline;
         max-height: 10rem;
         background-size: 100% 30rem;
     }
     .image-dog-breed {
-        max-width: 0px;
+        margin-bottom: -6rem;
     }
     .image-dog-breed img {
-        width: 5.6rem;
-        bottom: 1.8rem;
-        height: 13.8rem;
-        left: -4.3rem;
+        width: 4.5rem;
+        bottom: 8.6rem;
+        height: 9.1rem;
+        left: 12rem;
+        margin-bottom: -3rem;
     }
     .learn-more {
         display: none;

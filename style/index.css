@@ -27,6 +27,10 @@ header .background {
     display: inline-block;
 }
 
+.nav-menu button {
+    display: none;
+}
+
 .logo {
     max-height: 4rem;
     max-width: 4rem;
@@ -65,6 +69,10 @@ a {
 
 section {
     background-color: white;
+}
+
+button a:hover {
+    color: red;
 }
 
 section .our-story {
@@ -373,9 +381,9 @@ footer .footer {
 }
 
 .footer-left .menu-footer {
-    width: 23rem;
-    margin-top: 11rem;
-    margin-left: 14rem;
+    width: 24rem;
+    margin-top: 10rem;
+    margin-left: 12rem;
 }
 
 .menu-footer ul {
