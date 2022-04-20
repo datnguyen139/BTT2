@@ -61,8 +61,9 @@
         max-height: 20rem;
     }
     .content-banner .banner {
-        height: 3rem;
-        margin-left: 17rem;
+        margin-top: 1rem;
+        height: 5rem;
+        margin-left: 14rem;
     }
     .content-banner .title {
         margin-top: 3rem;
